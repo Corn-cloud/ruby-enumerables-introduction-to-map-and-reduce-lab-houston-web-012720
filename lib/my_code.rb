@@ -36,5 +36,6 @@ def reduce_to_total(source_array, starting_point)
     new += source_array[i]
     i += 1 
   end
-  
+  return new
+end 
 
